@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&family=Nunito+Sans:opsz,wght@6..12,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 body {
@@ -18,4 +21,31 @@ body .quote-box {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+body .quote-box h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  position: relative;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.25rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+body .quote-box h2::after {
+  content: "";
+  width: 75px;
+  height: 3px;
+  border-radius: 5px;
+  background: rgb(23, 124, 229);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+body .quote-box blockquote {
+  font-size: 26px;
+  min-height: 110px;
+}
+body .quote-box blockquote::before, body .quote-box blockquote::after {
+  content: '"';
 }/*# sourceMappingURL=style.css.map */
