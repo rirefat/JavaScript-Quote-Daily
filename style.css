@@ -11,7 +11,7 @@ body {
   background: #bbc6fa;
 }
 body .quote-box {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.767);
   width: 700px;
   position: absolute;
   top: 50%;
@@ -45,7 +45,7 @@ body .quote-box h2::after {
 body .quote-box blockquote {
   font-size: 26px;
   min-height: 110px;
-  font-family: "Long Cang", cursive;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 30px;
 }
 body .quote-box blockquote::before, body .quote-box blockquote::after {
