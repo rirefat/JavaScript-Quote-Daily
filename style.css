@@ -114,4 +114,16 @@ body .quote-box .btns button:hover {
 body .quote-box .btns button:nth-child(2) {
   background-color: transparent;
   color: #333;
+}
+body .footer {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.2rem;
+}
+body .footer a {
+  text-decoration: none;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
