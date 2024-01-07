@@ -22,6 +22,11 @@ body .quote-box {
   text-align: center;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
 }
+@media screen and (max-width: 768px) {
+  body .quote-box {
+    width: 80%;
+  }
+}
 body .quote-box h2 {
   font-size: 32px;
   margin-bottom: 40px;
@@ -30,6 +35,11 @@ body .quote-box h2 {
   letter-spacing: 0.25rem;
   font-weight: 500;
   text-transform: capitalize;
+}
+@media screen and (max-width: 410px) {
+  body .quote-box h2 {
+    font-size: 28px;
+  }
 }
 body .quote-box h2::after {
   content: "";
@@ -46,6 +56,11 @@ body .quote-box blockquote {
   font-size: 26px;
   min-height: 110px;
   font-size: 30px;
+}
+@media screen and (max-width: 410px) {
+  body .quote-box blockquote {
+    font-size: 25px;
+  }
 }
 body .quote-box blockquote::before, body .quote-box blockquote::after {
   content: '"';
@@ -70,6 +85,12 @@ body .quote-box .btns {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 425px) {
+  body .quote-box .btns {
+    flex-direction: column;
+  }
 }
 body .quote-box .btns button {
   background: rgb(23, 124, 229);
