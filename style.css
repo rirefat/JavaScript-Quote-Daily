@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 body {
@@ -45,7 +45,6 @@ body .quote-box h2::after {
 body .quote-box blockquote {
   font-size: 26px;
   min-height: 110px;
-  font-family: "Nunito Sans", sans-serif;
   font-size: 30px;
 }
 body .quote-box blockquote::before, body .quote-box blockquote::after {
